@@ -1,0 +1,186 @@
+* {
+    font-family: "helvetica", sans-serif;
+    font-size: 22px;
+    color: seashell;
+    background-color: black;
+    /* opacity: 0.9; */
+    text-align: center;
+    /* border: 1px solid red; */
+    margin: 0px;
+    padding: 0px;
+}
+
+ h1 {
+    font-size: 1.8em;
+ }
+
+ h2 {
+    font-size: 1.5em;
+ }
+
+ h3 {
+    font-size: 1.3em;
+ }
+
+ h4 {
+    font-size: 1em;
+ }
+
+ h5 {
+    font-size: 0.8em;
+ }
+
+/* HEADER */
+
+header {
+    position: fixed;
+    width: 100%;
+    height: 69px;
+    border-bottom: 1px solid seashell;
+    z-index: 10;
+    top: 0;
+    left: 0;
+
+}
+
+.header-container {
+    height: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0px 10px;
+}
+
+#logo {
+    height: 50px;
+    display: flex;
+}
+
+.nav-link {
+    display: inline-block;
+    text-decoration: underline;
+    padding-left: 10px;
+}
+
+/* MAIN */
+
+main {
+    position: relative;
+    top: 70px;
+    overflow: hidden;
+    }
+    
+/* BANNER */
+
+.banner-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 700px;
+    overflow: hidden;
+}
+
+.banner-text {
+    position: absolute;
+    left: 0px;
+    right: 0px;
+}
+.banner-text h2 {
+    line-height: 2;
+}
+
+.banner-text h4 {
+    line-height: normal;
+    padding-bottom: 0.5em;
+}
+
+/*  TEAS */
+
+.teas-container {
+    max-width: 1000px;
+    margin: 75px auto;
+    padding-bottom: 75px;
+}
+
+.heading-section h2,
+.heading-section h4 {
+    margin-bottom: 20px;
+}
+
+.tea-panel-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.tea-panel {
+    margin: 12px 16px;
+}
+
+.tea-panel h4 {
+    padding-top: 10px;
+}
+
+.tea-panel img {
+    width: 300px;
+    height: 200px;
+}
+
+/* LOCATION */
+
+.locations-container {
+    display: flex;
+    justify-content: center;
+    height: 500px;
+    max-width: 1200px;
+    margin: auto;
+}
+
+.locations-container img {
+    position: relative;
+    bottom: 75px;
+    justify-content: center;
+    overflow: hidden;
+
+}
+
+.locations-heading {
+    position: absolute;
+    background-color: transparent;
+}
+
+.locations-heading h2 {
+    background-color: transparent;
+    padding-top: 35px;
+}
+
+.location-panel-container {
+    display:flex;
+    background-color: transparent;
+    justify-content: center;
+}
+
+.location-panel {
+    display: block;
+    text-align: center;
+    line-height: 2.8;
+    width: 300px;
+    margin: 15px 20px;
+    padding: 0px 5px;
+}
+
+footer {
+    margin-top: 100px;
+}
+
+.contact {
+    display: flex;
+    flex-direction: column;
+    height: 200px;
+    justify-content: space-evenly;
+    margin-bottom: 20px;
+}
+
+.copyright {
+    display: flex;
+    margin: 0 auto 20px 20px;
+}
